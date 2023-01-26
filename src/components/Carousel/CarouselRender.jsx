@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./CarouselRender.module.css";
+
 import Carousel from "react-bootstrap/Carousel";
 
 export default function CarouselRender() {
@@ -37,9 +39,7 @@ export default function CarouselRender() {
 
         <Carousel.Caption>
           <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

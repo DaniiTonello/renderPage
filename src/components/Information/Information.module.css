@@ -1,0 +1,14 @@
+.containerInfo {
+  padding: 20px;
+  text-align: center;
+}
+
+.titleInfo {
+  color: #ff8d00;
+  font-size: 30px;
+}
+
+.info {
+  color: white;
+  font-size: 25px;
+}

@@ -1,13 +1,16 @@
 import React from "react";
 import CarouselRender from "../Carousel/CarouselRender";
-import CarouselProjects from "../CarouselProjects/CarouselProjects";
-import Navigation_Bar from "../NavigationBar/Navigation_Bar";
+import CarouselProjects from "../CarouselProjects/CarouselProject";
+import Information from "../Information/Information";
+import NavigationBar from "../NavigationBar/NavigationBar";
+import "./Home.module.css";
 
 export default function Home() {
   return (
-    <div>
-      <Navigation_Bar />
+    <div className="page">
+      <NavigationBar />
       <CarouselRender />
+      <Information />
       <CarouselProjects />
     </div>
   );
