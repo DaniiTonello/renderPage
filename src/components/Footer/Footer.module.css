@@ -1,0 +1,21 @@
+.footer {
+  color: #ffff;
+}
+
+.containerForm {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  color: rgb(176, 175, 175);
+}
+
+.form {
+  width: 500px;
+  padding: 20px 0px;
+}
+
+button {
+  width: 100px;
+}

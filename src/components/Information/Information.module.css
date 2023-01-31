@@ -1,14 +1,22 @@
 .containerInfo {
-  padding: 20px;
-  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Segoe UI, "Tahoma", Geneva, Verdana, sans-serif;
 }
 
 .titleInfo {
-  color: #ff8d00;
+  color: #ffffff;
+
   font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 20px 0px 20px 0px;
 }
 
 .info {
-  color: white;
-  font-size: 25px;
+  color: rgb(176, 175, 175);
+  font-size: 20px;
+  letter-spacing: 2px;
 }

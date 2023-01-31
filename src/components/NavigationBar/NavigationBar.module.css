@@ -1,0 +1,18 @@
+.navigationBar {
+  background: rgb(31, 29, 27);
+  background: linear-gradient(
+    145deg,
+    rgba(31, 29, 27, 0.8995973389355743) 37%,
+    rgba(31, 29, 27, 0) 100%
+  );
+  z-index: 2;
+}
+
+.logo {
+  color: white;
+}
+
+.canvasButton {
+  border: none;
+  background-color: rgba(245, 245, 245, 0.232);
+}

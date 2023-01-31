@@ -1,46 +1,32 @@
 import React from "react";
 
-import "./CarouselRender.module.css";
+import styles from "./CarouselRender.module.css";
 
 import Carousel from "react-bootstrap/Carousel";
 
 export default function CarouselRender() {
   return (
-    <Carousel>
+    <Carousel className={styles.containerCarousel}>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.renders.com.mx/wp-content/uploads/renders-de-casas-02.jpg"
+          src="/images/Electiva/DT/Imagen9_002.png"
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://javierfigueroa3d.com/wp-content/uploads/2017/11/22-CASA-PILARA-2016-11-08-camara-4.jpg"
+          src="/images/Taller/NR/aerea 3.jpg"
           alt="Second slide"
         />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://cedreo.com/es/cedreo-websites/image/upload/c_scale,w_1920/es/mi_house_front_600"
+          src="/images/Electiva/DT/RenderNocturno1.png"
           alt="Third slide"
         />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
